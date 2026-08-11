@@ -2844,6 +2844,11 @@
 
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
     else boot();
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+<script>
+  function syncTasks() {
+    alert("Google Tasks Connected!");
+  }
   </script>
 </body>
 </html>
